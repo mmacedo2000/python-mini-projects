@@ -10,8 +10,9 @@ jobs:
         with:
           python-version: 3.6
       - run: echo "The workflow is now ready to test the code on the runner."
-      - name: List files in the repository
+      - name: Create a documentate with the tool PEP8 to analyse and improve Currency Converter script
         run: |
           python -m pip install --upgrade pip
           pip install pep8 
-          cd ${{ github.workspace }}/projects/Currency_converter/ && pep8 cc.py 
+          cd ${{ github.workspace }}/projects/Currency_converter/
+          pep8 cc.py 
