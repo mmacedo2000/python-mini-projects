@@ -16,4 +16,5 @@ jobs:
           pip install pep8 
           cd ${{ github.workspace }}/projects/Currency_converter/
           # Run pep8 to provide guidelines and best practices on how to write the "cc.py" python code
-          pep8 cc.py 
+          pep8 cc.py > pep8_doc.txt
+          cat pep8_doc.txt

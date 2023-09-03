@@ -1,0 +1,27 @@
+../../projects/Currency_converter/cc.py:1:4: W291 trailing whitespace
+../../projects/Currency_converter/cc.py:2:80: E501 line too long (86 > 79 characters)
+../../projects/Currency_converter/cc.py:2:87: W291 trailing whitespace
+../../projects/Currency_converter/cc.py:3:80: E501 line too long (108 > 79 characters)
+../../projects/Currency_converter/cc.py:9:80: E501 line too long (126 > 79 characters)
+../../projects/Currency_converter/cc.py:12:16: W291 trailing whitespace
+../../projects/Currency_converter/cc.py:17:80: E501 line too long (128 > 79 characters)
+../../projects/Currency_converter/cc.py:18:80: E501 line too long (83 > 79 characters)
+../../projects/Currency_converter/cc.py:20:25: E261 at least two spaces before inline comment
+../../projects/Currency_converter/cc.py:20:26: E262 inline comment should start with '# '
+../../projects/Currency_converter/cc.py:28:80: E501 line too long (109 > 79 characters)
+../../projects/Currency_converter/cc.py:31:80: E501 line too long (225 > 79 characters)
+../../projects/Currency_converter/cc.py:53:80: E501 line too long (106 > 79 characters)
+../../projects/Currency_converter/cc.py:70:80: E501 line too long (333 > 79 characters)
+../../projects/Currency_converter/cc.py:73:80: E501 line too long (251 > 79 characters)
+../../projects/Currency_converter/cc.py:132:80: E501 line too long (105 > 79 characters)
+../../projects/Currency_converter/cc.py:133:80: E501 line too long (84 > 79 characters)
+../../projects/Currency_converter/cc.py:134:80: E501 line too long (93 > 79 characters)
+../../projects/Currency_converter/cc.py:173:80: E501 line too long (321 > 79 characters)
+../../projects/Currency_converter/cc.py:180:80: E501 line too long (188 > 79 characters)
+../../projects/Currency_converter/cc.py:183:80: E501 line too long (146 > 79 characters)
+../../projects/Currency_converter/cc.py:184:80: E501 line too long (96 > 79 characters)
+../../projects/Currency_converter/cc.py:185:80: E501 line too long (147 > 79 characters)
+../../projects/Currency_converter/cc.py:186:80: E501 line too long (128 > 79 characters)
+../../projects/Currency_converter/cc.py:198:80: E501 line too long (182 > 79 characters)
+../../projects/Currency_converter/cc.py:211:80: E501 line too long (87 > 79 characters)
+../../projects/Currency_converter/cc.py:218:1: W391 blank line at end of file
