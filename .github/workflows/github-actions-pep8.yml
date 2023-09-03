@@ -12,12 +12,9 @@ jobs:
       - run: echo "The workflow is now ready to test the code on the runner."
       - name: Create a documentate with the tool PEP8 to analyse and improve Currency Converter script
         run: |
-          python -m pip install --upgrade pip
-          pip install pep8 
+          python -m pip install --upgrade pip && pip install pycodestyle
           cd ${{ github.workspace }}/projects/Currency_converter/
           # Run pep8 to provide guidelines and best practices on how to write the "cc.py" python code
           # pep8 cc.py > pep8_doc.txt
           # pep8 has been renamed to pycodestyle
-          pip install pycodestyle
-          pycodestyle cc.py > pep8_doc.txt
-          cat pep8_doc.txt
+          pycodestyle cc.py
